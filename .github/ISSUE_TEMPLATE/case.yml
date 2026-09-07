@@ -1,0 +1,55 @@
+name: 提交脱敏案例
+description: 提议一个经过授权、可公开的企业 AI 案例
+title: "[Case]: "
+labels:
+  - case
+body:
+  - type: input
+    id: industry
+    attributes:
+      label: 行业与场景
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: 结果状态
+      options:
+        - 有限生产
+        - 稳态运营
+        - 产品化
+        - 调整或缩小
+        - 安全停止
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可公开证据
+      description: 说明基线、评估、上线、采用、成本与结果；不要粘贴敏感原始数据。
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: 归因限制、失败与未决问题
+    validations:
+      required: true
+  - type: textarea
+    id: reuse
+    attributes:
+      label: 可复用资产
+      description: Skill、连接器、模板、评估集或产品反馈。
+    validations:
+      required: true
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: 授权与脱敏确认
+      options:
+        - label: 我有权提交该材料并已获得必要授权。
+          required: true
+        - label: 我已移除个人信息、客户机密、凭据和可重识别细节。
+          required: true
+        - label: 我已保留数据时间、样本、口径与来源限制。
+          required: true
