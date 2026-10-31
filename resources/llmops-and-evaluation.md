@@ -8,6 +8,7 @@
 - [MLflow GenAI](https://mlflow.org/docs/latest/genai/) — 生成式 AI 的追踪、评估与生命周期管理。`英文` `免费` `核验：2026-09-07`
 - [Arize Phoenix](https://arize.com/docs/phoenix) — LLM Trace、评估与可观测。`英文` `免费/商业版` `核验：2026-09-07`
 - [OpenTelemetry Documentation](https://opentelemetry.io/docs/) — Trace、Metric 与 Log 的开放标准。`英文` `免费` `核验：2026-09-07`
+- [agent-qa：验证编码代理的应用变更](https://vostride.com/docs/agent-qa/guides/coding-agent-workflow) — 面向交付 AI 应用的工程团队，用运行与步骤证据诊断失败并定向重跑；需运行待测应用，模型调用费用随配置和用量变化。`英文` `免费文档` `核验：2026-10-31`
 
 ## 五层评估
 
