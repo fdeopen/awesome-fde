@@ -107,3 +107,25 @@ npx -y markdownlint-cli '**/*.md' '.github/**/*.md'
 ## 安全问题
 
 不要在公开 Issue 或 PR 中提交密钥、漏洞利用细节、客户数据或未脱敏材料。请按 [SECURITY.md](./SECURITY.md) 的方式处理。
+
+## 升级后的维护约定
+
+- 图书事实只改 `book/metadata.json`；章名与页码只改 `book/chapters.json`，并附出版社目录或作者确认依据。
+- 案例索引只保存摘要和来源，沿用[14项模板](cases/case-template.md)；区分企业授权、公开来源、参考实现和模拟教学。缺失证据写未知。
+- 重点技术项目维护 `resources/catalog.json`；记录规范仓库、官方文档、许可证、核验日期和限制。
+- 每个新项目/模板注明维护人、来源、授权、已测试版本和复核触发条件；独立仓库维护全文，当前项目链接索引。
+- 原创贡献适用既有MIT许可；第三方材料保留自身条件，不因PR提交自动再授权。
+
+## 检查与评审
+
+```bash
+python3 scripts/render.py
+python3 scripts/render.py --check
+python3 scripts/check_docs.py
+python3 cookbook/examples/offline_delivery.py
+npx --yes markdownlint-cli@0.45.0 '**/*.md' '.github/**/*.md'
+```
+
+提交源数据及生成文档。PR门禁在离线检查通过后进入人工内容评审；外链每周检查，403、限流或临时网络故障列入维护报告，不直接阻止普通PR。
+
+图书勘误由作者确认后登记；代码由维护者复现；案例由维护者核对来源、授权和类型。无法复核的内容先保留为待核验，不标为已发布或已验证。

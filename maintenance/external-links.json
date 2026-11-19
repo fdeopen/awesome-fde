@@ -1,0 +1,1960 @@
+{
+  "checked_at_utc": "2026-11-19T05:59:07.956781+00:00",
+  "method": "GET, 12s timeout, max 2 attempts, 4 workers; unchanged URLs reused when incremental",
+  "fresh_checks": 5,
+  "results": [
+    {
+      "url": "https://51fde.net/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://51fde.net/",
+      "detail": ""
+    },
+    {
+      "url": "https://aclanthology.org/2024.eacl-demo.16/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://aclanthology.org/2024.eacl-demo.16/",
+      "detail": ""
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://aistudio.google.com/docs/prompting-strategies",
+      "detail": ""
+    },
+    {
+      "url": "https://ai.pydantic.dev/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://pydantic.dev/docs/ai/overview/",
+      "detail": ""
+    },
+    {
+      "url": "https://aider.chat/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://aider.chat/docs/",
+      "detail": ""
+    },
+    {
+      "url": "https://aigateway.envoyproxy.io/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://theagentrouter.ai/",
+      "detail": ""
+    },
+    {
+      "url": "https://arize.com/docs/phoenix",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arize.com/docs/phoenix",
+      "detail": ""
+    },
+    {
+      "url": "https://arxiv.org/abs/1706.03762",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/1706.03762",
+      "detail": ""
+    },
+    {
+      "url": "https://arxiv.org/abs/2005.11401",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/2005.11401",
+      "detail": ""
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/2210.03629",
+      "detail": ""
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.04761",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/2302.04761",
+      "detail": ""
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.03172",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://arxiv.org/abs/2307.03172",
+      "detail": ""
+    },
+    {
+      "url": "https://atlas.mitre.org/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://atlas.mitre.org/",
+      "detail": ""
+    },
+    {
+      "url": "https://detail.tmall.com/item.htm?id=1097057663551",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://detail.tmall.com/item.htm?id=1097057663551",
+      "detail": ""
+    },
+    {
+      "url": "https://developer.konghq.com/ai-gateway/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://developer.konghq.com/ai-gateway/",
+      "detail": ""
+    },
+    {
+      "url": "https://doc.fastgpt.cn/docs/introduction/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://doc.fastgpt.cn/guide/getting-started",
+      "detail": ""
+    },
+    {
+      "url": "https://docling-project.github.io/docling/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docling-project.github.io/docling/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.crewai.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.crewai.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.dify.ai/",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://docs.dify.ai/",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://docs.flowiseai.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.flowiseai.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.greatexpectations.io/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.greatexpectations.io/docs/home/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/deepagents/overview",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.langchain.com/oss/python/deepagents/overview",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/langchain/retrieval",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://docs.langchain.com/oss/python/langchain/retrieval",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.litellm.ai/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.litellm.ai/docs/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.llamaindex.ai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://developers.llamaindex.ai/python/framework/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.llamaindex.ai/en/stable/module_guides/deploying/agents/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://developers.llamaindex.ai/python/framework/module_guides/deploying/agents/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.n8n.io/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.n8n.io/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.ollama.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.ollama.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.ragas.io/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.ragas.io/en/stable/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.sglang.ai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.sglang.io/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.unstructured.io/",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://docs.unstructured.io/",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://docs.vllm.ai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.vllm.ai/en/latest/",
+      "detail": ""
+    },
+    {
+      "url": "https://docs.weaviate.io/weaviate",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://docs.weaviate.io/weaviate",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ai-agent-tob-opportunity",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ai-agent-tob-opportunity",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2025101304138",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2025101304138",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2025120312697",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2025120312697",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026060254278",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026060254278",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026060536821",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026060536821",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026060558476",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026060558476",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026061961803",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026061961803",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026062679046",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026062679046",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/aisaas-2026072062704",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/aisaas-2026072062704",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-30-oems-llm-status",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-30-oems-llm-status",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-aftermarket-reshape",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-aftermarket-reshape",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-agent-in-car-landing",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-agent-in-car-landing",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-compliant-model-design",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-compliant-model-design",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-cps-agent-data-fusion",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-cps-agent-data-fusion",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-mongodb-manufacturing",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-mongodb-manufacturing",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-ten-oems-llm",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-ten-oems-llm",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-vehicle-quality-inspection",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-vehicle-quality-inspection",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/auto-xpeng-x-foresight",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/auto-xpeng-x-foresight",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/bi-2024062147983",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/bi-2024062147983",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/bi-2024062258907",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/bi-2024062258907",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/bi-2024062501429",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/bi-2024062501429",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/bi-2024070130165",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/bi-2024070130165",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/bi-2024070189574",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/bi-2024070189574",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/coze-2026040750697",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/coze-2026040750697",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/coze-2026060185314",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/coze-2026060185314",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/coze-2026070582094",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/coze-2026070582094",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/coze-2026070680379",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/coze-2026070680379",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2025122991478",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2025122991478",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026011003571",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026011003571",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026042937926",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026042937926",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026071331974",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026071331974",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026071515026",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026071515026",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026071729876",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026071729876",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/cs-2026072093681",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/cs-2026072093681",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026070905682",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026070905682",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026071094207",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026071094207",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026071281935",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026071281935",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026071706845",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026071706845",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026071753642",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026071753642",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026072210756",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026072210756",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/de-2026072279165",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/de-2026072279165",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/dify-2026070841297",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/dify-2026070841297",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/dify-2026071802534",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/dify-2026071802534",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/dify-2026072016403",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/dify-2026072016403",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/dify-2026072221839",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/dify-2026072221839",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/digital-employee-evolution",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/digital-employee-evolution",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/digital-employee-strategy",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/digital-employee-strategy",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-1688-ai-native",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-1688-ai-native",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-2024101825830",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-2024101825830",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-2025070436097",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-2025070436097",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-2025100160497",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-2025100160497",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-2026070109475",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-2026070109475",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-agent-content-scene",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-agent-content-scene",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-ai-workbench",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-ai-workbench",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-brand-default-answer",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-brand-default-answer",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-first-ai-app-review",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-first-ai-app-review",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-five-landing-cases",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-five-landing-cases",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-semir-ai-gateway",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-semir-ai-gateway",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-shopify-ai-team",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-shopify-ai-team",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-taobao-growbrain",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-taobao-growbrain",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-taobao-shangou-scaling",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-taobao-shangou-scaling",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-taobao-skills-rnd",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-taobao-skills-rnd",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/ecom-taobao-wenwen",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/ecom-taobao-wenwen",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/enterprise-ai-agent-5-cases",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/enterprise-ai-agent-5-cases",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/enterprise-genai-usecases-2024",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/enterprise-genai-usecases-2024",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-anthropic-skills",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-anthropic-skills",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-bank-due-diligence",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-bank-due-diligence",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-gf-analysis-skills",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-gf-analysis-skills",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-insurance-claims",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-insurance-claims",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-last-mile",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-last-mile",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-multi-agent-market",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-multi-agent-market",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-risk-control-platform",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-risk-control-platform",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-rogo-agent",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-rogo-agent",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-shanzheng-practice",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-shanzheng-practice",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-small-banks-experience",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-small-banks-experience",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-stripe-agent-payment",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-stripe-agent-payment",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-workbuddy-research",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-workbuddy-research",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/finance-xiaogang-suggestions",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/finance-xiaogang-suggestions",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/genai-healthcare-landing",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/genai-healthcare-landing",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/glean-2025122110729",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/glean-2025122110729",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/glean-enterprise-brain",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/glean-enterprise-brain",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/glean-enterprise-search",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/glean-enterprise-search",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-abridge-documentation",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-abridge-documentation",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-agent-graphrag-treatment",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-agent-graphrag-treatment",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-aicure-adherence",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-aicure-adherence",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-deepseek-420-hospitals",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-deepseek-420-hospitals",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-emr-product-design",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-emr-product-design",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-hospital-priority-scene",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-hospital-priority-scene",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-medical-llm-sinking",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-medical-llm-sinking",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-openai-long-memory",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-openai-long-memory",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-pharma-landing-pain",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-pharma-landing-pain",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-pharma-transformation",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-pharma-transformation",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-qwen3-graphrag",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-qwen3-graphrag",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/health-tempus-data-engine",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/health-tempus-data-engine",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/huanshi-logistics-ai-cost",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/huanshi-logistics-ai-cost",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industrial-qc-large-vs-small",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industrial-qc-large-vs-small",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026011337810",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026011337810",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026030895068",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026030895068",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026062170821",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026062170821",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026070228195",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026070228195",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026070309658",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026070309658",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/industry-2026072137814",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/industry-2026072137814",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/llm-finance-deep-analysis-2024",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/llm-finance-deep-analysis-2024",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/llm-finance-scenarios-path",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/llm-finance-scenarios-path",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-2026060746835",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-2026060746835",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-2026070708193",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-2026070708193",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-2026070807468",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-2026070807468",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-2026070807812",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-2026070807812",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-2026071170935",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-2026071170935",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-aip-rag-copilot",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-aip-rag-copilot",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-fde-a-day",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-fde-a-day",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-fde-agent-pmf",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-fde-agent-pmf",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-foundry-racetrac",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-foundry-racetrac",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-ontology-rag",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-ontology-rag",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/palantir-procurement-automation",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/palantir-procurement-automation",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/smart-cs-7-enterprise-cases",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/smart-cs-7-enterprise-cases",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/smart-cs-top10-2024",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/smart-cs-top10-2024",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/traditional-enterprise-ai-adoption",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/traditional-enterprise-ai-adoption",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/cases/insights/wanmu-health-ai-practice",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/cases/insights/wanmu-health-ai-practice",
+      "detail": ""
+    },
+    {
+      "url": "https://fdechina.ai/community/join",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdechina.ai/community/join",
+      "detail": ""
+    },
+    {
+      "url": "https://fdeopen.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fdeopen.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://fullstackdeeplearning.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://fullstackdeeplearning.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://genai.owasp.org/initiatives/agentic-security-initiative/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://genai.owasp.org/initiatives/agentic-security-initiative/",
+      "detail": ""
+    },
+    {
+      "url": "https://genai.owasp.org/llm-top-10/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://genai.owasp.org/llm-top-10/",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/Aider-AI/aider",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/Aider-AI/aider?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/Aider-AI/aider?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/Arize-ai/phoenix",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/Arize-ai/phoenix",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/BerriAI/litellm",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/BerriAI/litellm/blob/main/LICENSE",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/BerriAI/litellm/blob/main/LICENSE",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/FlowiseAI/Flowise",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/Portkey-AI/gateway",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/Portkey-AI/gateway",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/RDFLib/rdflib",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/RDFLib/rdflib",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/RDFLib/rdflib?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/RDFLib/rdflib?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/anthropics/skills",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/anthropics/skills",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/bingyue/fde-guide",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/bingyue/fde-guide",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/bingyue/fde-skills",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/bingyue/fde-skills",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/crewAIInc/crewAI",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/crewAIInc/crewAI?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/crewAIInc/crewAI?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/docling-project/docling",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/docling-project/docling",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/docling-project/docling?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/docling-project/docling?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/envoyproxy/ai-gateway",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/theagentrouter/agent-router",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/explodinggradients/ragas",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/vibrantlabsai/ragas",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/commits/main/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/awesome-fde/commits/main/",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/forks",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/awesome-fde/forks",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/graphs/contributors",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/awesome-fde/graphs/contributors",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/issues/new/choose",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffdeopen%2Fawesome-fde%2Fissues%2Fnew%2Fchoose",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/issues/new?template=book-errata.yml",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ffdeopen%2Fawesome-fde%2Fissues%2Fnew%3Ftemplate%3Dbook-errata.yml",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/awesome-fde/pulls",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/awesome-fde/pulls",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/enterprise-ai-ontology",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/enterprise-ai-ontology",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fdeopen/fde-case-study",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fdeopen/fde-case-study",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fivetran/great_expectations",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fivetran/great_expectations",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/fivetran/great_expectations?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/fivetran/great_expectations?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/ggml-org/llama.cpp",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/tree/master/docs",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/ggml-org/llama.cpp/tree/master/docs",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/ggml-org/llama.cpp?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/huggingface/text-generation-inference",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/infiniflow/ragflow",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/infiniflow/ragflow",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/infiniflow/ragflow?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/infiniflow/ragflow?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/labring/FastGPT",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/labring/FastGPT",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langchain-ai/deepagents",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langchain-ai/deepagents",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langchain-ai/deepagents?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langchain-ai/deepagents?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langchain-ai/langgraph",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langchain-ai/langgraph?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langchain-ai/langgraph?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langfuse/langfuse",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse/blob/main/LICENSE",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langfuse/langfuse/blob/main/LICENSE",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langgenius/dify",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langgenius/dify",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/langgenius/dify/blob/main/LICENSE",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/milvus-io/milvus",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/milvus-io/milvus",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/mlflow/mlflow",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/mlflow/mlflow",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/mlflow/mlflow?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/mlflow/mlflow?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/modelcontextprotocol/python-sdk",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/python-sdk?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/modelcontextprotocol/python-sdk?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/n8n-io/n8n",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/n8n-io/n8n",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/ollama/ollama",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/ollama/ollama",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/open-telemetry",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/open-telemetry",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/openai/evals",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/openai/evals",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/openai/openai-agents-python",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/openai/openai-agents-python",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/pgvector/pgvector",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/pgvector/pgvector",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/promptfoo/promptfoo",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/promptfoo/promptfoo",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/promptfoo/promptfoo?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/promptfoo/promptfoo?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/pydantic/pydantic-ai",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/qdrant/qdrant",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/qdrant/qdrant",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/qdrant/qdrant?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/qdrant/qdrant?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/run-llama/llama_index",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/run-llama/llama_index",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/sgl-project/sglang",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/sgl-project/sglang",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/triton-inference-server/server",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/triton-inference-server/server",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/vibrantlabsai/ragas",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/vibrantlabsai/ragas",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/vibrantlabsai/ragas?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/vibrantlabsai/ragas?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/vllm-project/vllm",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm?tab=readme-ov-file#license",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/vllm-project/vllm?tab=readme-ov-file#license",
+      "detail": ""
+    },
+    {
+      "url": "https://github.com/weaviate/weaviate",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://github.com/weaviate/weaviate",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/docs/datasets/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/docs/datasets/index",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/docs/text-generation-inference/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/docs/text-generation-inference/index",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/learn",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/learn",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/learn/context-course/unit0/introduction",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/learn/context-course/unit0/introduction",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "detail": ""
+    },
+    {
+      "url": "https://huggingface.co/learn/nlp-course/zh-CN/chapter1/1",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://huggingface.co/learn/llm-course/zh-CN/chapter1/1",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/PRs-welcome-blue",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/badge/PRs-welcome-blue",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/github/contributors/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/github/contributors/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/github/forks/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/github/forks/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/github/last-commit/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/github/last-commit/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/github/license/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/github/license/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://img.shields.io/github/stars/fdeopen/awesome-fde",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://img.shields.io/github/stars/fdeopen/awesome-fde",
+      "detail": ""
+    },
+    {
+      "url": "https://item.jd.com/10239039021503.html",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://item.jd.com/10239039021503.html",
+      "detail": ""
+    },
+    {
+      "url": "https://jalammar.github.io/illustrated-transformer/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://jalammar.github.io/illustrated-transformer/",
+      "detail": ""
+    },
+    {
+      "url": "https://langfuse.com/docs",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://langfuse.com/docs",
+      "detail": ""
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/agent-framework/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://learn.microsoft.com/en-us/agent-framework/",
+      "detail": ""
+    },
+    {
+      "url": "https://madewithml.com/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://madewithml.com/",
+      "detail": ""
+    },
+    {
+      "url": "https://milvus.io/docs",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://milvus.io/docs",
+      "detail": ""
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://mlflow.org/docs/latest/",
+      "detail": ""
+    },
+    {
+      "url": "https://mlflow.org/docs/latest/genai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://mlflow.org/docs/latest/genai/",
+      "detail": ""
+    },
+    {
+      "url": "https://modelcontextprotocol.io/",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://modelcontextprotocol.io/",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://openai.github.io/openai-agents-python/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://openai.github.io/openai-agents-python/",
+      "detail": ""
+    },
+    {
+      "url": "https://opentelemetry.io/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://opentelemetry.io/docs/",
+      "detail": ""
+    },
+    {
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+      "detail": ""
+    },
+    {
+      "url": "https://portkey.ai/docs/",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://portkey.ai/docs/",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://qdrant.tech/documentation/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://qdrant.tech/documentation/",
+      "detail": ""
+    },
+    {
+      "url": "https://ragflow.io/docs/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://ragflow.io/docs/",
+      "detail": ""
+    },
+    {
+      "url": "https://ragflow.io/docs/dev/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://ragflow.io/docs/dev/",
+      "detail": ""
+    },
+    {
+      "url": "https://rdflib.readthedocs.io/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://rdflib.readthedocs.io/en/stable/",
+      "detail": ""
+    },
+    {
+      "url": "https://saif.google/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://saif.google/",
+      "detail": ""
+    },
+    {
+      "url": "https://sre.google/workbook/table-of-contents/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://sre.google/workbook/table-of-contents/",
+      "detail": ""
+    },
+    {
+      "url": "https://stanford-cs336.github.io/spring2025/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "http://cs336.stanford.edu/spring2025/",
+      "detail": ""
+    },
+    {
+      "url": "https://www.53ai.com/news/dify/2025031223659.html",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.53ai.com/news/dify/2025031223659.html",
+      "detail": ""
+    },
+    {
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "status": "ok",
+      "http": 308,
+      "final_url": "https://www.deeplearning.ai/short-courses/",
+      "detail": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/knn-search.html",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.elastic.co/docs/solutions/search/vector/knn",
+      "detail": ""
+    },
+    {
+      "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+      "detail": ""
+    },
+    {
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "detail": ""
+    },
+    {
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "detail": ""
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+      "status": "access-limited-or-transient",
+      "http": 403,
+      "final_url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+      "status": "access-limited-or-transient",
+      "http": 403,
+      "final_url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+      "status": "access-limited-or-transient",
+      "http": 403,
+      "final_url": "https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.promptfoo.dev/docs/intro/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.promptfoo.dev/docs/intro/",
+      "detail": ""
+    },
+    {
+      "url": "https://www.promptingguide.ai/zh",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.promptingguide.ai/zh",
+      "detail": ""
+    },
+    {
+      "url": "https://www.tup.tsinghua.edu.cn/booksCenter/book_11842501.html",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.tup.tsinghua.edu.cn/booksCenter/book_11842501.html",
+      "detail": ""
+    },
+    {
+      "url": "https://www.tup.tsinghua.edu.cn/booksCenter/bookcatalog?id=11842501",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://www.tup.tsinghua.edu.cn/booksCenter/bookcatalog?id=11842501",
+      "detail": ""
+    },
+    {
+      "url": "https://zh.d2l.ai/",
+      "status": "ok",
+      "http": 200,
+      "final_url": "https://zh.d2l.ai/",
+      "detail": ""
+    }
+  ]
+}

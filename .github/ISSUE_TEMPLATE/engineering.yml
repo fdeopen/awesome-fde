@@ -1,0 +1,29 @@
+name: 工程实践问题
+description: 提交工程实践问题并保留可核验依据
+title: "[Engineering] "
+body:
+  - type: input
+    id: context
+    attributes:
+      label: 配方/项目、版本与运行环境
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 最小复现步骤、预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 已尝试办法、脱敏日志与影响范围
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 来源与公开范围
+      options:
+        - label: 已说明来源与授权范围，未提交客户内部资料、个人信息、密钥或图书全文。
+          required: true

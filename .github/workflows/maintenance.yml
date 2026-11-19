@@ -1,0 +1,28 @@
+name: Advisory maintenance
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * 1'
+permissions:
+  contents: read
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: External links (advisory)
+        run: python3 scripts/check_external.py
+      - name: Contributor update draft
+        run: python3 scripts/update_contributors.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-review
+          path: |
+            maintenance/external-links.json
+            community/contributors.md

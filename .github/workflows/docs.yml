@@ -1,0 +1,29 @@
+name: Documentation checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check generated documents
+        run: python3 scripts/render.py --check
+      - name: Check links, anchors, images and indexes
+        run: python3 scripts/check_docs.py
+      - name: Markdown format
+        run: npx --yes markdownlint-cli@0.45.0 '**/*.md' '.github/**/*.md'
+      - name: Run synthetic engineering exercise
+        run: python3 cookbook/examples/offline_delivery.py
+      - name: Run value model
+        run: python3 toolkit/calculators/roi.py
+      - name: Whitespace
+        run: git diff --check

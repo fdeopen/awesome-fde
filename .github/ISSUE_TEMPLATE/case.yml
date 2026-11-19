@@ -4,6 +4,23 @@ title: "[Case]: "
 labels:
   - case
 body:
+  - type: dropdown
+    id: evidence_type
+    attributes:
+      label: 资料类型
+      options:
+        - 企业授权案例
+        - 公开案例或实践文章
+        - 参考实现
+        - 模拟教学案例
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 原始来源、披露日期与维护人
+    validations:
+      required: true
   - type: input
     id: industry
     attributes:

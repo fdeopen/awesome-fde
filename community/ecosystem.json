@@ -1,0 +1,26 @@
+[
+  {
+    "name": "FDEChina.ai",
+    "en": "FDE China community and industry ecosystem",
+    "role": "FDE中国社区与产业生态",
+    "url": "https://fdechina.ai/"
+  },
+  {
+    "name": "FDEOpen.com",
+    "en": "Enterprise AI media and open technology ecosystem",
+    "role": "企业AI产业媒体与开放技术生态",
+    "url": "https://fdeopen.com/"
+  },
+  {
+    "name": "51FDE.net",
+    "en": "FDE learning and career development",
+    "role": "FDE人才培养与职业成长",
+    "url": "https://51fde.net/"
+  },
+  {
+    "name": "GitHub · FDEOpen",
+    "en": "Open-source organization",
+    "role": "开源组织与共创项目",
+    "url": "https://github.com/fdeopen"
+  }
+]

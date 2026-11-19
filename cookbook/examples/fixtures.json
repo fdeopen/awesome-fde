@@ -1,0 +1,60 @@
+{
+  "synthetic": true,
+  "documents": [
+    {
+      "id": "policy-a-v1",
+      "tenant": "alpha",
+      "active": true,
+      "text": "A型产品保修12个月",
+      "terms": [
+        "A型",
+        "保修"
+      ]
+    },
+    {
+      "id": "policy-b-v1",
+      "tenant": "beta",
+      "active": true,
+      "text": "B型产品保修6个月",
+      "terms": [
+        "B型",
+        "保修"
+      ]
+    },
+    {
+      "id": "policy-a-old",
+      "tenant": "alpha",
+      "active": false,
+      "text": "旧条款不可用",
+      "terms": [
+        "旧条款"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "id": "q1",
+      "tenant": "alpha",
+      "query": "A型保修",
+      "expected": "policy-a-v1"
+    },
+    {
+      "id": "q2",
+      "tenant": "alpha",
+      "query": "B型",
+      "expected": null
+    },
+    {
+      "id": "q3",
+      "tenant": "alpha",
+      "query": "旧条款",
+      "expected": null
+    },
+    {
+      "id": "q4",
+      "tenant": "alpha",
+      "query": "未知交期",
+      "expected": null
+    }
+  ]
+}

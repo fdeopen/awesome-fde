@@ -1,0 +1,29 @@
+name: 社区建设建议
+description: 提交社区建设建议并保留可核验依据
+title: "[Community] "
+body:
+  - type: input
+    id: context
+    attributes:
+      label: 建议涉及的模块与人群
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 问题证据与建议改进
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 可投入的维护资源与验收方式
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 来源与公开范围
+      options:
+        - label: 已说明来源与授权范围，未提交客户内部资料、个人信息、密钥或图书全文。
+          required: true

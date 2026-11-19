@@ -7,3 +7,7 @@
 - [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) — 从零实现大模型，适合补齐底层原理。`英文` `付费` `核验：2026-09-07`
 - [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) — 数据系统的可靠性、扩展性与可维护性基础。`英文` `付费` `核验：2026-09-07`
 - [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/) — SLO、监控、事故与可靠性实践。`英文` `免费` `核验：2026-09-07`
+
+## FDE作者配套图书
+
+[图书学习中心](../book/README.md)统一维护正式出版信息、真实封面、正版购买与12章配套导航，避免多处复制出版数据。

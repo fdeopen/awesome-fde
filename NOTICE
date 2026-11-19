@@ -11,3 +11,12 @@ not imply endorsement.
 
 “FDEChina.ai” and “FDE中国社区” are used as community and brand identifiers.
 Other product and company names may be trademarks of their respective owners.
+
+Publication assets: the book cover and chapter/section titles are included only
+to identify the publication and navigate its companion materials. They are not
+licensed under this repository's MIT license. No book body text is distributed.
+Book facts and provenance are maintained in book/metadata.json and book/chapters.json.
+
+Case summaries link to third-party/community articles; their inclusion does not
+grant rights to redistribute the full articles, images or customer data. Synthetic
+exercise data created for this repository is explicitly labeled and covered by MIT.

@@ -1,0 +1,29 @@
+name: 图书勘误
+description: 提交图书勘误并保留可核验依据
+title: "[Book] "
+body:
+  - type: input
+    id: context
+    attributes:
+      label: 版次/印次与章节页码
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 最小必要原句与问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议修订与依据
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 来源与公开范围
+      options:
+        - label: 已说明来源与授权范围，未提交客户内部资料、个人信息、密钥或图书全文。
+          required: true

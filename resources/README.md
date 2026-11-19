@@ -17,3 +17,13 @@
 - [报告](./reports.md)
 
 新增条目前请阅读 [贡献指南](../CONTRIBUTING.md)。
+
+## 企业AI资源图谱
+
+- [重点框架与20层技术导航](frameworks.md)
+- [开源与可用源码选型](open-source.md)
+- [工具分类入口](tools.md)
+- [数据集与合成评测](datasets.md)
+- [社区与学习生态](communities.md)
+
+技术条目元数据集中在 `catalog.json`；部分历史页仍保留2026-09-07核验日。本次检查未通过的外链见[维护报告](../maintenance/upgrade-report.md)，不将历史时间自动改成今日。

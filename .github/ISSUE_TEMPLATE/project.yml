@@ -1,0 +1,29 @@
+name: 开源项目推荐
+description: 提交开源项目推荐并保留可核验依据
+title: "[Project] "
+body:
+  - type: input
+    id: context
+    attributes:
+      label: 项目仓库与许可证
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 业务场景、部署步骤与模拟数据
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 实际评测结果、限制与维护人
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 来源与公开范围
+      options:
+        - label: 已说明来源与授权范围，未提交客户内部资料、个人信息、密钥或图书全文。
+          required: true

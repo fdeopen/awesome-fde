@@ -1,0 +1,29 @@
+name: 交付模板贡献
+description: 提交交付模板贡献并保留可核验依据
+title: "[Template] "
+body:
+  - type: input
+    id: context
+    attributes:
+      label: 对应交付阶段与现有模板
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 字段说明、空白底稿和合成填写示例
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 使用反馈、来源与维护责任
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 来源与公开范围
+      options:
+        - label: 已说明来源与授权范围，未提交客户内部资料、个人信息、密钥或图书全文。
+          required: true
