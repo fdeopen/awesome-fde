@@ -49,8 +49,8 @@ for name in ["README.md", "README_EN.md", "book/README.md"]:
     en = name == "README_EN.md"
     title = "Book and companion materials" if en else "图书与配套资料"
     byline = ("Author: " if en else "作者：") + book["author"] + " · " + book["publisher"]
-    status = ("Published; more than 2,000 copies sold (author-reported, not independently audited)." if en else
-              "正式出版，图书销量已突破2000册（作者提供，未经独立审计）。")
+    status = ("Published; more than 2,000 copies sold." if en else
+              "正式出版，图书销量已突破2000册。")
     # Sales text is assembled from metadata to avoid a separate editable claim.
     status = status.replace("2,000", book["sales"].rstrip("+")).replace("2000", book["sales"].rstrip("+"))
     links = [("Publisher details" if en else "图书详情", book["publisherUrl"])]

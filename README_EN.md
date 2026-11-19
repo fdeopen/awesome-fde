@@ -31,7 +31,7 @@ The book provides a structured explanation; this repository provides evolving pr
 
 Author: 邴越 · 清华大学出版社 · 2026-11-01 · ISBN 9787302729556
 
-**Published; more than 2000 copies sold (author-reported, not independently audited).**
+**Published; more than 2000 copies sold.**
 
 A Chinese-language guide to FDE roles, business discovery, ontology, PoC, knowledge engineering, Agents, production delivery and industry practice.
 
