@@ -45,7 +45,7 @@
 
 ## 导航
 
-[什么是 FDE](#什么是-fde) · [从哪里开始](#从哪里开始) · [八大模块](#八大核心模块) · [学习路线](#学习路线怎么选) · [交付流程](#如何推进一个企业-ai-项目) · [运行示例](#运行第一个示例) · [案例与项目](#案例与项目的收录范围) · [仓库结构](#仓库结构) · [社区生态](#社区生态) · [参与贡献](#参与贡献)
+[什么是 FDE](#什么是-fde) · [从哪里开始](#从哪里开始) · [八大模块](#八大核心模块) · [学习路线](#学习路线怎么选) · [交付流程](#如何推进一个企业-ai-项目) · [运行示例](#运行第一个示例) · [公开案例](#公开案例) · [仓库结构](#仓库结构) · [社区生态](#社区生态) · [参与贡献](#参与贡献)
 
 <a id="项目定位"></a>
 <a id="fde-能力模型"></a>
@@ -69,7 +69,7 @@ FDE 的能力覆盖六个领域：**业务发现、软件与数据工程、AI �
 | 正在负责企业 AI 项目、产品或咨询交付 | [业务发现](playbook/business-discovery/README.md) → [机会卡](templates/discovery/opportunity-card.md) | 明确用户、问题、基线与成功条件的机会卡 |
 | 需要项目文档与交付底稿 | [工具箱](toolkit/README.md) | 按当前阶段填写的一份模板 |
 | 正在阅读配套图书 | [12 章学习导航](book/README.md) | 对应章节的练习与交付产物 |
-| 调研行业场景、技术选型或创业方向 | [案例索引](cases/catalog.md) → [技术图谱](resources/frameworks.md) | 有来源与待验证假设的场景或选型清单 |
+| 调研行业场景、技术选型或创业方向 | [公开案例](cases/README.md) → [技术图谱](resources/frameworks.md) | 有来源与待验证假设的场景或选型清单 |
 
 <a id="学习资源"></a>
 
@@ -82,7 +82,7 @@ FDE 的能力覆盖六个领域：**业务发现、软件与数据工程、AI �
 | [FDE Playbook · 交付方法](playbook/README.md) | 项目每个阶段如何推进与交接？ | 12 阶段的目标、输入输出、方法与风险 |
 | [FDE Toolkit · 交付工具箱](toolkit/README.md) | 需要记录哪些决策与交付证据？ | 30 项核心任务模板、检查单与 ROI 计算器 |
 | [FDE Cookbook · 工程实践](cookbook/README.md) | 如何实现并验证一项工程能力？ | 10 份实践指南与 1 个可运行的离线练习 |
-| [FDE Cases · 案例索引](cases/README.md) | 可以参考哪些业务场景与经验？ | 119 篇社区文章索引与 1 个模拟教学案例 |
+| [FDE Cases · 公开案例](cases/README.md) | 可以参考哪些业务场景与经验？ | 按行业精选的公开案例、阅读重点与交付拆解 |
 | [FDE Projects · 实战项目](projects/README.md) | 如何组织一个完整应用项目？ | 10 项项目简报，分别标注可用组件与规划状态 |
 | [FDE Resources · 技术资源](resources/README.md) | 学什么技术、查哪些官方资料？ | 大模型、Agent、RAG、AI Infra、评测等分类资源与框架图谱 |
 
@@ -144,15 +144,53 @@ python3 cookbook/examples/offline_delivery.py
 
 下一步：修改一个样本并观察断言结果，将失败记录写入 [Bad Case 模板](toolkit/templates/bad-case.md)，再参考 [Cookbook](cookbook/README.md)扩展工程能力。业务价值估算可另用 [ROI 计算器](toolkit/calculators/README.md)。
 
-## 案例与项目的收录范围
+<a id="案例与项目的收录范围"></a>
+<a id="公开案例"></a>
 
-当前资料规模以仓库内索引为准：
+<!-- public-cases:start -->
 
-- **案例阅读**：[119 篇社区文章](cases/catalog.md)按行业组织，保留标题、摘要和原文链接，供场景研究与方法参考；文章数不等于经过独立核验的企业项目数。200 份完整案例集仍待补充来源与资料，当前尚未收齐。
-- **教学实践**：[1 个模拟服务台案例](cases/enterprise-services/synthetic-service-desk.md)配合离线代码演示交付过程，使用合成数据。
-- **项目实战**：[10 项项目简报](projects/project-catalog.md)提供场景、架构、章节关联与验收目标。当前本仓库可直接运行上述离线练习；完整应用的可用组件、上游参考和规划状态逐项列明。
+## 30 个公开案例
 
-贡献案例时请标明“企业授权案例、公开案例/文章、参考实现、模拟教学案例”中的资料类型，并使用[案例模板](cases/case-template.md)；提交应用请附[项目模板](projects/project-template.md)要求的代码、运行条件与实测记录。
+从公开资料中精选，覆盖 **7 个行业分类**。点击案例名称阅读来源文章；阅读重点由本项目整理。
+
+[查看案例拆解](cases/selected.md) · [全部阅读资料](cases/catalog.md)
+
+| 行业 | 公开案例 | 阅读重点 |
+| --- | --- | --- |
+| 制造业与汽车 | [Trinity Industries：铁路资产与维修账单审计](https://fdechina.ai/cases/insights/palantir-2026070807468) | 将维修规则、资产与账单关联到同一业务对象 |
+| 制造业与汽车 | [Onshape + LLM：三轴云台 CAD 工作流](https://fdechina.ai/cases/insights/industry-2026070228195) | 让模型读取、修改并检查可版本化的 CAD 状态 |
+| 制造业与汽车 | [悦点科技：本体驱动的设备运维](https://fdechina.ai/cases/insights/industry-2026011337810) | 统一设备、失效模式、工艺与运维动作的语义 |
+| 制造业与汽车 | [汽车研发：合规导向的 CAD 数模校验](https://fdechina.ai/cases/insights/auto-compliant-model-design) | 把法规条款转成设计检查项与参数约束 |
+| 电商与零售 | [高价率运营工作台：Skill 回归评测](https://fdechina.ai/cases/insights/ecom-ai-workbench) | 把运营 Skill 的质量变成可重复执行的评测 |
+| 电商与零售 | [淘宝闪购：爆品团排序模型迭代](https://fdechina.ai/cases/insights/ecom-taobao-shangou-scaling) | 用统一模型主干与消融实验推进排序升级 |
+| 电商与零售 | [得物：高可控客服 Agent](https://fdechina.ai/cases/insights/cs-2026071515026) | 分离流程控制、回复生成与质量评估 |
+| 电商与零售 | [淘宝 GrowBrain：内容成长引擎](https://fdechina.ai/cases/insights/ecom-taobao-growbrain) | 用规划、执行与总结组织内容运营决策 |
+| 电商与零售 | [淘宝企业购：面向 Skills 的客户系统对接](https://fdechina.ai/cases/insights/ecom-taobao-skills-rnd) | 将接口对接经验沉淀为版本化研发流程 |
+| 电商与零售 | [森马：多模型与 MCP 统一接入](https://fdechina.ai/cases/insights/ecom-semir-ai-gateway) | 用 AI 网关管理鉴权、成本、回退与存量服务 |
+| 电商与零售 | [Shopify：多 Agent 商品分类治理](https://fdechina.ai/cases/insights/ecom-shopify-ai-team) | 识别分类缺口、属性与商家标签的等价关系 |
+| 电商与零售 | [RaceTrac：门店需求预测与运营调整](https://fdechina.ai/cases/insights/palantir-foundry-racetrac) | 结合天气、销售与门店模型调整人员和商品 |
+| 电商与零售 | [1688：找挑一体的 AI 导购](https://fdechina.ai/cases/insights/ecom-1688-ai-native) | 把需求理解、商品检索与对比放进同一流程 |
+| 电商与零售 | [淘工厂：电商内容 Agent 的演进](https://fdechina.ai/cases/insights/ecom-agent-content-scene) | 从批量生成延伸到内容诊断与投放反馈 |
+| 电商与零售 | [淘宝：AI 试衣素材的商品系统集成](https://fdechina.ai/cases/insights/ecom-2024101825830) | 用离线任务、聚合写入与恢复机制承接生成结果 |
+| 金融与保险 | [金智维：银行尽调报告的准确性治理](https://fdechina.ai/cases/insights/finance-bank-due-diligence) | 从业务人员与驳回记录中提炼隐性判断规则 |
+| 金融与保险 | [中小银行：从 AI 助手到数据治理](https://fdechina.ai/cases/insights/finance-small-banks-experience) | 先验证小场景与员工采用，再扩大自动化范围 |
+| 金融与保险 | [保险极客：团险理赔数字化](https://fdechina.ai/cases/insights/finance-insurance-claims) | 以理赔数据清洗与标签治理支撑全流程协同 |
+| 金融与保险 | [广发金工：财报分析与报告生成 Skills](https://fdechina.ai/cases/insights/finance-gf-analysis-skills) | 确定性计算与有来源的文本归纳分工协作 |
+| 金融与保险 | [Rogo：嵌入投行工作流的金融 Agent](https://fdechina.ai/cases/insights/finance-rogo-agent) | 将专业数据与引用接入 Excel、PowerPoint 工作流 |
+| 金融与保险 | [邮储银行：智“会”锦囊运维问答](https://fdechina.ai/cases/insights/cs-2026011003571) | 把操作手册、问答对与未解决工单连成更新流程 |
+| 金融与保险 | [山西证券：固收助理与合规知识问答](https://fdechina.ai/cases/insights/finance-shanzheng-practice) | 识别交易意图并保留人工处理与引用复核 |
+| 医疗健康 | [Abridge：医疗对话转临床文档](https://fdechina.ai/cases/insights/health-abridge-documentation) | 把生成的文档摘要映射回对话证据 |
+| 医疗健康 | [AiCure：临床试验中的用药行为记录](https://fdechina.ai/cases/insights/health-aicure-adherence) | 连接移动端视觉记录、患者报告与研究者工作台 |
+| 医疗健康 | [Tempus AI：多模态医疗数据整理](https://fdechina.ai/cases/insights/health-tempus-data-engine) | 将病历、影像与基因报告转为可计算的数据 |
+| 医疗健康 | [医疗器械客服：RAG Copilot 迁移排障](https://fdechina.ai/cases/insights/palantir-aip-rag-copilot) | 从检索片段过多的问题反查切分与索引设计 |
+| 医疗健康 | [万木健康：基层医患服务工作流](https://fdechina.ai/cases/insights/wanmu-health-ai-practice) | 将专科知识、医生服务与区域化业务结合 |
+| 物流与供应链 | [环世物流：AI 与低代码业务系统结合](https://fdechina.ai/cases/insights/huanshi-logistics-ai-cost) | 把询价等任务接入已有数字化业务流程 |
+| 互联网与媒体 | [快手 KOncall：研发值班智能问答](https://fdechina.ai/cases/insights/cs-2026042937926) | 统一值班入口，并把问答、转人工与知识运营衔接 |
+| 专业服务 | [标书编制：分步 Agent 与自动质检](https://fdechina.ai/cases/insights/de-2026072210756) | 先拆要求，再逐章生成、脚本检查与人工审核 |
+
+<!-- public-cases:end -->
+
+案例收录与更新方式见[维护说明](cases/curation.md)。实战项目的实现状态另见[项目目录](projects/project-catalog.md)。
 
 <a id="本地研究报告"></a>
 <a id="案例项目与历史资产"></a>
@@ -166,7 +204,7 @@ awesome-fde/
 ├── playbook/         # 企业 AI 项目 12 阶段交付方法
 ├── toolkit/          # 核心任务模板、检查单、评测约定与计算器
 ├── cookbook/         # 工程实践指南与可运行的离线示例
-├── cases/            # 案例分类索引、来源与教学案例
+├── cases/            # 公开案例精选、行业索引与交付拆解
 ├── projects/         # 实战项目简报与实现状态
 ├── resources/        # 技术图谱、框架、课程、论文与数据集
 ├── career/           # 六域能力模型与职业发展资料

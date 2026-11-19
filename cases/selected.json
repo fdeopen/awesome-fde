@@ -1,0 +1,515 @@
+{
+  "updatedAt": "2026-11-19",
+  "items": [
+    {
+      "id": "FC-023",
+      "industry": "制造业与汽车",
+      "title": "Trinity Industries：铁路资产与维修账单审计",
+      "titleEn": "Trinity Industries: rail asset and invoice review",
+      "focus": "将维修规则、资产与账单关联到同一业务对象",
+      "focusEn": "Connect maintenance rules, assets and invoices",
+      "problem": "铁路车辆维修账单涉及标准工时、材料价格、重复计费与追偿，数据分散在 Railinc 和内部遗留系统。",
+      "approach": "文章介绍通过 Palantir Foundry 的数据处理、本体建模与应用构建能力，把资产、维修记录和账单规则关联起来，由业务专家参与规则解释与核验。",
+      "evidence": "来源为 Trinity Industries 资产审计实践的公开解读；原文所称“三一工业”指北美铁路企业 Trinity Industries。系统建设周期与收益沿用原文语境。",
+      "takeaway": "先建立账单项与资产、工时、材料规则之间的可追溯关系，再设计异常识别与人工复核流程。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/palantir-2026070807468.md",
+        "sha256": "fb4ae13f7f5430c1ce4369fbaf0e986ed498574fbd910f4557e9555027b63d7d"
+      }
+    },
+    {
+      "id": "FC-031",
+      "industry": "制造业与汽车",
+      "title": "Onshape + LLM：三轴云台 CAD 工作流",
+      "titleEn": "Onshape and LLMs: a gimbal CAD workflow",
+      "focus": "让模型读取、修改并检查可版本化的 CAD 状态",
+      "focusEn": "Read, edit and inspect versioned CAD state",
+      "problem": "三轴云台设计需要反复验证轴线、结构件、舵机与相机的装配关系，单次生成外形难以支撑持续修改。",
+      "approach": "公开实践通过内部 CLI 读取 Onshape 文档与特征状态，让编程 Agent 参与模型修改和检查报告生成，同时保留人在 CAD 页面中直接调整的能力。",
+      "evidence": "来源为作者公开的工程工作流实践，涉及云台设计与 CAD 状态检查；并非已量产产品的交付报告。",
+      "takeaway": "把可编辑源模型、特征状态和几何检查一起交给 Agent，验收重点放在工程约束与修改后的有效性。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/industry-2026070228195.md",
+        "sha256": "2f3e8fe3d2c7344098ddba70bcbcbb134c1ebdd2ba7ed8ec39997230b7015f4a"
+      }
+    },
+    {
+      "id": "FC-055",
+      "industry": "制造业与汽车",
+      "title": "悦点科技：本体驱动的设备运维",
+      "titleEn": "Yuedian: ontology-driven equipment maintenance",
+      "focus": "统一设备、失效模式、工艺与运维动作的语义",
+      "focusEn": "Align equipment, failure modes and maintenance actions",
+      "problem": "传感器与监控系统已经存在，但设备状态分散、质量追溯困难，维修经验难以形成可复用的判断依据。",
+      "approach": "来源介绍按设备、系统、部件和工位组织业务本体，将失效模式、可观测特征、质量缺陷和运维动作关联，再由数据、诊断、决策与反馈 Agent 协作。",
+      "evidence": "文章披露了悦点科技的体系设计与工业运维实践；“零停机、零缺陷”属于建设目标，不作为本索引确认的实际结果。",
+      "takeaway": "工业智能的起点是统一设备与事件含义；每条建议都应能回到部件、观测值和处理规则。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/industry-2026011337810.md",
+        "sha256": "d163dd2cbc26522e7fe18a4f28f5c852dbcfafedec0ed38b4994c536851768f7"
+      }
+    },
+    {
+      "id": "FC-073",
+      "industry": "制造业与汽车",
+      "title": "汽车研发：合规导向的 CAD 数模校验",
+      "titleEn": "Automotive engineering: compliance-aware CAD checks",
+      "focus": "把法规条款转成设计检查项与参数约束",
+      "focusEn": "Map requirements to CAD checks and parameters",
+      "problem": "汽车设计要求分散在法规、数模和工具中，人工逐条阅读与核对成本高，规则变更后也难以同步到设计环节。",
+      "approach": "文章介绍整合法规库、UG NX 数模平台与工具库，抽取设计检查项和参数，将知识库与推理能力接入三维模型设计、检查和发布流程。",
+      "evidence": "公开工程文章介绍实现思路与平台组成；企业名称及统一量化收益未完整披露。",
+      "takeaway": "将条款来源、适用版本、检查参数与模型对象绑定，便于工程师复核自动检查结果。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/auto-compliant-model-design.md",
+        "sha256": "85d57dfc9b1c7c0fdde4aa11476f710141873acd3afd8f54890efbb53c61d0bc"
+      }
+    },
+    {
+      "id": "FC-011",
+      "industry": "电商与零售",
+      "title": "高价率运营工作台：Skill 回归评测",
+      "titleEn": "Pricing operations: regression evaluation for Skills",
+      "focus": "把运营 Skill 的质量变成可重复执行的评测",
+      "focusEn": "Make operational Skill quality repeatably testable",
+      "problem": "价格播报、数据分发、价格跟进和日报涉及长工作链，业务规则或 Skill 修改容易影响已有场景。",
+      "approach": "实践将 Skill、数据与评测集分开组织，以业务样本建立评价标准，结合自动执行与模型评分，对版本变化持续回归，并处理金标隔离和反馈入口问题。",
+      "evidence": "原文提供评测架构、目录约定和金标设计经验；评价分数需要结合其样本、评分规则与运行环境理解。",
+      "takeaway": "把失败样本、评分依据和版本差异保存为交付资产，优先验证规则修改是否破坏已有任务。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-ai-workbench.md",
+        "sha256": "d543391218ab756ee18c4b808900c87f9d7e6d358bc3f2d8a7bbf1d4a9fc989e"
+      }
+    },
+    {
+      "id": "FC-014",
+      "industry": "电商与零售",
+      "title": "淘宝闪购：爆品团排序模型迭代",
+      "titleEn": "Taobao Instant Commerce: ranking model iteration",
+      "focus": "用统一模型主干与消融实验推进排序升级",
+      "focusEn": "Use a unified backbone and ablation studies",
+      "problem": "排序系统长期叠加异构模块后，结构变得碎片化，调参和持续扩展的成本上升。",
+      "approach": "团队公开介绍从 DLRM 架构转向 Token-Based RankMixer，保留相关特征处理，并围绕负采样、多任务、序列建模和任务塔开展结构消融。",
+      "evidence": "来源记录多期模型扩容与线上实验经验；业务收益对应爆品团频道和当时的实验条件。",
+      "takeaway": "技术升级要保存旧基线、消融结果和线上验证记录，避免只凭参数规模判断方案价值。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-taobao-shangou-scaling.md",
+        "sha256": "e74b2b6f70a86c1c13b6a2a3a3274f92cee28b9886b602e8d190d2cd7e63bac0"
+      }
+    },
+    {
+      "id": "FC-015",
+      "industry": "电商与零售",
+      "title": "得物：高可控客服 Agent",
+      "titleEn": "Dewu: controlled customer-service Agents",
+      "focus": "分离流程控制、回复生成与质量评估",
+      "focusEn": "Separate orchestration, replies and evaluation",
+      "problem": "传统意图识别与 FAQ 流水线难以处理复杂多轮任务，长上下文、回复控制与 SOP 维护也增加了工程负担。",
+      "approach": "公开演讲整理介绍总控、出话、评估与润色 Agent 的分工，结合记忆和上下文压缩；从转人工记录中对比机器与人工回复，经人工审阅、离线测试后再做线上实验。",
+      "evidence": "来源为 AICon 演讲整理，披露了角色分工和提示词优化流程；其中仍在进行的能力不计作已上线成果。",
+      "takeaway": "先控制对话状态与动作，再优化表达；把人工接管记录用于发现可复现的失败模式。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/cs-2026071515026.md",
+        "sha256": "91cf40c4d053a0e2297eff0643e271f7d2cb11d23153df9316de11a6cddbd5fe"
+      }
+    },
+    {
+      "id": "FC-021",
+      "industry": "电商与零售",
+      "title": "淘宝 GrowBrain：内容成长引擎",
+      "titleEn": "Taobao GrowBrain: content growth orchestration",
+      "focus": "用规划、执行与总结组织内容运营决策",
+      "focusEn": "Organize content decisions through plan, execute and summarize",
+      "problem": "内容质量、账号画像、历史表现和流量供需难以通过分散规则统一判断，业务方也需要理解分配结果的依据。",
+      "approach": "来源介绍 Planning–Execute–Summarize 编排，调度潜力评估、流量分配和漏斗诊断等能力，并讨论框架选型、小模型服务与生产可靠性改造。",
+      "evidence": "公开技术文章描述从 Demo 到生产改造的过程；可复用重点是编排与可靠性设计，具体效果依赖其内容生态。",
+      "takeaway": "把决策依据与执行结果一起保存，明确延迟、吞吐和稳定性约束，才能让 Agent 进入运营链路。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-taobao-growbrain.md",
+        "sha256": "7739deae527eeee53be37891271337d8422ffee61c197322df74ff40c268e95e"
+      }
+    },
+    {
+      "id": "FC-037",
+      "industry": "电商与零售",
+      "title": "淘宝企业购：面向 Skills 的客户系统对接",
+      "titleEn": "Taobao Enterprise: Skills for customer integrations",
+      "focus": "将接口对接经验沉淀为版本化研发流程",
+      "focusEn": "Turn integration expertise into versioned workflows",
+      "problem": "不同客户的商品、交易与结算接口存在差异，每次定制对接都需要重新理解文档、设计适配并编写代码。",
+      "approach": "文章把项目评估、技术方案与代码生产整理为研发 SOP，将领域知识、约束和步骤封装为 Skills，引导模型在明确契约下生成适配代码。",
+      "evidence": "来源披露企业购对接实践和作者测得的研发效果；本索引聚焦可复用流程，不将其比例作为其他项目的目标值。",
+      "takeaway": "复用单元可以是带输入、约束与检查步骤的工作方法；生成代码仍需按客户接口契约验收。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-taobao-skills-rnd.md",
+        "sha256": "0acfd190de36434280420e7311143fef21d626ca38a9055b1baea06d03feafd2"
+      }
+    },
+    {
+      "id": "FC-061",
+      "industry": "电商与零售",
+      "title": "森马：多模型与 MCP 统一接入",
+      "titleEn": "Semir: unified model and MCP access",
+      "focus": "用 AI 网关管理鉴权、成本、回退与存量服务",
+      "focusEn": "Manage access, cost, fallback and existing services",
+      "problem": "多个团队使用不同模型，调用权限、费用分摊和服务故障难以统一处理，存量微服务接入 Agent 的工作量也很大。",
+      "approach": "公开案例介绍借助阿里云 AI 网关和 Nacos 统一管理模型与 MCP 服务，配置消费者鉴权、Token 统计、限流、备用模型切换及调用观测。",
+      "evidence": "来源说明平台构成与团队应用方式；产品版本和支持范围以文章发布时间的披露为准。",
+      "takeaway": "企业推广 Agent 前，应先让服务身份、调用成本、故障回退和运行记录可以被统一管理。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-semir-ai-gateway.md",
+        "sha256": "ed7602be48ca4cbfb856b34a34e65938f89228b86b73fc3a4a65f15f6ab01958"
+      }
+    },
+    {
+      "id": "FC-063",
+      "industry": "电商与零售",
+      "title": "Shopify：多 Agent 商品分类治理",
+      "titleEn": "Shopify: multi-Agent product taxonomy governance",
+      "focus": "识别分类缺口、属性与商家标签的等价关系",
+      "focusEn": "Identify taxonomy gaps and equivalent merchant labels",
+      "problem": "商品分类专业性强、更新快，商家标签与平台类目不一致，使搜索与商品发现受到影响。",
+      "approach": "公开解读介绍结构分析、商品分析、专业评判与等价关系识别等角色，提出属性和分类调整建议，再由人类专家把关。",
+      "evidence": "来源提供 MagSafe 属性与高尔夫球鞋分类等具体例子；效率表述来自原文转述。",
+      "takeaway": "让不同 Agent 分别负责提出、检查与映射建议，同时保留人工维护分类标准的入口。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-shopify-ai-team.md",
+        "sha256": "a41400fb85a7cf37f43346ea91de8910f22034ee9e0905de031f0746aee5cad9"
+      }
+    },
+    {
+      "id": "FC-072",
+      "industry": "电商与零售",
+      "title": "RaceTrac：门店需求预测与运营调整",
+      "titleEn": "RaceTrac: store demand and operational planning",
+      "focus": "结合天气、销售与门店模型调整人员和商品",
+      "focusEn": "Connect weather, sales and store-level models",
+      "problem": "天气等外部因素会改变单店客流与商品需求，统一且滞后的运营安排难以及时响应。",
+      "approach": "AIPCon 演讲解读介绍在 Foundry 中连接门店数据与模型，支持排班、促销和食品生产等调整，并允许业务人员覆盖建议，将反馈带回系统。",
+      "evidence": "来源包含暖日需求变化的具体场景及门店运营界面描述；这是一项公开客户实践解读。",
+      "takeaway": "预测要连接到有负责人的运营动作，并保留人工调整原因，才能形成可持续改进的工作流。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/palantir-foundry-racetrac.md",
+        "sha256": "c6998d5bc74e115d908d78d507b10d07f64cd9c800a27743e3b92864cefdf1ab"
+      }
+    },
+    {
+      "id": "FC-074",
+      "industry": "电商与零售",
+      "title": "1688：找挑一体的 AI 导购",
+      "titleEn": "1688: integrated product search and selection",
+      "focus": "把需求理解、商品检索与对比放进同一流程",
+      "focusEn": "Unify intent, product retrieval and comparison",
+      "problem": "用户需要自行把自然语言需求拆成筛选条件，再跨多个详情页比较商品，找货与决策之间存在断层。",
+      "approach": "实践介绍用多轮交互理解需求，通过 ReAct 风格的 Agent 连接商品检索、排序与结构化对比，组织从寻找商品到挑选商品的连续交互。",
+      "evidence": "来源为 1688 AI 原生应用的公开分享整理，介绍导购与找挑场景；不据此推断所有场景已全量上线。",
+      "takeaway": "按用户完成选购任务所需的信息组织工具与输出，保留商品事实、比较依据及需求变化。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-1688-ai-native.md",
+        "sha256": "f59c2e7af814cf4635ebf53b7b2efcc17b35f46be704699b97e8c3b479ab56c4"
+      }
+    },
+    {
+      "id": "FC-075",
+      "industry": "电商与零售",
+      "title": "淘工厂：电商内容 Agent 的演进",
+      "titleEn": "Taofactory: evolving content Agents",
+      "focus": "从批量生成延伸到内容诊断与投放反馈",
+      "focusEn": "Extend generation into content diagnosis and feedback",
+      "problem": "商家需要持续生产多平台内容，同时保证商品属性准确、不同模态一致，并判断内容是否带来有效反馈。",
+      "approach": "公开分享按文本生产、多模态生成和质量优化展开，连接商品信息、用户行为、生成模型与任务编排，并讨论商品事实幻觉及模态一致性问题。",
+      "evidence": "来源描述阶段演进与作者披露的运营结果；不同阶段的能力和效果需要分别理解。",
+      "takeaway": "内容交付应同时检查商品事实、审核结果和业务反馈，不能只以生成数量作为质量指标。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-agent-content-scene.md",
+        "sha256": "19c8e259456cbf8479addba30f36a3d7218dd20d8d6f58eb992069cf8f43a7be"
+      }
+    },
+    {
+      "id": "FC-088",
+      "industry": "电商与零售",
+      "title": "淘宝：AI 试衣素材的商品系统集成",
+      "titleEn": "Taobao: integrating AI try-on assets",
+      "focus": "用离线任务、聚合写入与恢复机制承接生成结果",
+      "focusEn": "Deliver generated assets through resilient batch jobs",
+      "problem": "大量商品图片需要生成试衣素材并写入商品中心，逐图查询与写入会放大调用量，实时推理也受资源约束。",
+      "approach": "技术文章介绍预先生成不同身形的素材，再由离线任务写入 IC 扩展结构；通过数据预处理、任务进度与失败重跑设计处理批量交付。",
+      "evidence": "来源披露素材写入流程与工程目标；文中的目标成功率不视为本项目重新实测的结果。",
+      "takeaway": "生成模型之后仍需稳定的数据交付链；评估聚合粒度、上下游限流和断点恢复成本。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/ecom-2024101825830.md",
+        "sha256": "32f00fa2b3aebc6a84f3b66f859ccc920e84b7da5c8d202035227e40550f0524"
+      }
+    },
+    {
+      "id": "FC-026",
+      "industry": "金融与保险",
+      "title": "金智维：银行尽调报告的准确性治理",
+      "titleEn": "Kingsware: accuracy in bank due-diligence reports",
+      "focus": "从业务人员与驳回记录中提炼隐性判断规则",
+      "focusEn": "Capture implicit rules from reviewers and revisions",
+      "problem": "金融报告可以自动起草，但数值、表述与内部审阅要求必须准确，通用生成能力难以覆盖未成文规则。",
+      "approach": "公开访谈讨论从 RPA 向 AI 交付演进的难点，强调深入业务现场，将业务人员经验、合规审批习惯和历次修改记录转为系统可用的规则。",
+      "evidence": "来源为金智维相关访谈与交付经验解读；客户身份和完整报告评测集未披露。",
+      "takeaway": "先还原一份报告被接受或驳回的条件，建立逐项核对和复核证据，再优化生成速度。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-bank-due-diligence.md",
+        "sha256": "987da6b6a9fef1c67e41cb5d92355e26f27b91b7f9a8e10acd35d7a39d5e1245"
+      }
+    },
+    {
+      "id": "FC-028",
+      "industry": "金融与保险",
+      "title": "中小银行：从 AI 助手到数据治理",
+      "titleEn": "Community banks: assistants, adoption and data quality",
+      "focus": "先验证小场景与员工采用，再扩大自动化范围",
+      "focusEn": "Validate narrow use cases and staff adoption first",
+      "problem": "银行希望推进 AI，但员工使用习惯、客户数据质量和系统集成条件会影响应用的实际价值。",
+      "approach": "公开报道整理 Cape & Coast Bank、Lake City Bank 与 Mission Valley Bank 的经验，分别讨论小场景切入、先形成助手使用习惯，以及鼓励员工修正数据错误。",
+      "evidence": "这是一篇会议经验汇总，按一条案例收录，不将三家银行拆分凑数；未给出统一的横向效果实验。",
+      "takeaway": "把场景范围、使用者反馈和数据纠错机制一起纳入试点，观察系统是否真正被持续使用。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-small-banks-experience.md",
+        "sha256": "f7946101c7c1b933b807c442aad2c2922b907f8651a01e697ca2c13abef6735f"
+      }
+    },
+    {
+      "id": "FC-032",
+      "industry": "金融与保险",
+      "title": "保险极客：团险理赔数字化",
+      "titleEn": "Insurance Geek: digital group-insurance claims",
+      "focus": "以理赔数据清洗与标签治理支撑全流程协同",
+      "focusEn": "Build claims workflows on normalized data and labels",
+      "problem": "团险询价、承保、保全、理赔和审核依赖人工，医院名称、药品名称等数据又存在多种表述。",
+      "approach": "公开分享以理赔为切入口，先清洗和标注业务数据，再形成可用于运营报表、分析与智能体的结构化数据，并反馈到保障方案设计。",
+      "evidence": "来源整理自保险科技创新大赛分享，记录企业披露的处理周期与数据治理投入；各指标沿用原文口径。",
+      "takeaway": "把容易混淆的业务实体与规则统一起来，数据治理工作量应在项目计划中单独估算。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-insurance-claims.md",
+        "sha256": "00f2060e1107d1603217182369b22a56f3729b124438350a8defc3dfad2c5ad8"
+      }
+    },
+    {
+      "id": "FC-042",
+      "industry": "金融与保险",
+      "title": "广发金工：财报分析与报告生成 Skills",
+      "titleEn": "GF research: financial analysis and reporting Skills",
+      "focus": "确定性计算与有来源的文本归纳分工协作",
+      "focusEn": "Separate deterministic calculations from sourced summaries",
+      "problem": "行业财报研究需要跨数据库、公告、Excel 与演示材料反复搬运信息，比较口径和表达容易不一致。",
+      "approach": "公开实践用两个 Skills 分别处理结构化财务数据和报告文本，通过规则计算、模板输出与受限上下文摘要，连接数据整理、研究底稿和 Word/PPT 产出。",
+      "evidence": "来源披露技能分工、数据来源适配和作者使用体验，同时说明提取与判断仍可能出错。",
+      "takeaway": "金额、期间和同比环比交给可核查的计算流程；摘要保留对应公告和底稿以便研究人员复核。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-gf-analysis-skills.md",
+        "sha256": "ea15ab2ac203fdeb1fc2fe5c2e231a4566f11075dfa8850275b9083eb076a475"
+      }
+    },
+    {
+      "id": "FC-052",
+      "industry": "金融与保险",
+      "title": "Rogo：嵌入投行工作流的金融 Agent",
+      "titleEn": "Rogo: financial Agents inside analyst workflows",
+      "focus": "将专业数据与引用接入 Excel、PowerPoint 工作流",
+      "focusEn": "Bring licensed data and citations into analyst tools",
+      "problem": "金融分析师需要在多个专业数据源、表格和演示文稿之间重复搬运信息，并追溯每个关键数据点。",
+      "approach": "公开产品案例解读介绍连接 Capital IQ、FactSet、PitchBook 等数据源，并把检索与引用嵌入分析师已有的 Excel 和 PowerPoint 工作环境。",
+      "evidence": "来源为 Rogo 的公开产品与应用分析；客户数量、收入和融资信息不作为本案例的交付验收依据。",
+      "takeaway": "围绕岗位实际使用的文件与工具设计入口，同时明确数据许可、来源引用和人工审阅方式。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-rogo-agent.md",
+        "sha256": "b6427edfb8645603ebf97beb1e31f0ed99c629641fb61f419518679c67745c3f"
+      }
+    },
+    {
+      "id": "FC-056",
+      "industry": "金融与保险",
+      "title": "邮储银行：智“会”锦囊运维问答",
+      "titleEn": "Postal Savings Bank: operational support Q&A",
+      "focus": "把操作手册、问答对与未解决工单连成更新流程",
+      "focusEn": "Connect manuals, Q&A pairs and unresolved tickets",
+      "problem": "业务人员反复咨询系统操作，手册不易检索且随版本变化，运维人员需要持续重复解释相同问题。",
+      "approach": "公开文章介绍在线机器人、大模型与知识空间组合，将手册改写为功能说明及问答对，通过 RAG 回答咨询，再用未解决工单的根因分析更新知识。",
+      "evidence": "来源披露银行智能咨询响应体系与知识运营方式；问答质量需要结合原场景和知识版本理解。",
+      "takeaway": "知识库应随着业务系统更新，并把未解决问题交回明确的内容负责人处理。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/cs-2026011003571.md",
+        "sha256": "0b24dfd8241ab036be81dc124d0b2c0b163bea7524a78976cb0c715968dfb2b8"
+      }
+    },
+    {
+      "id": "FC-117",
+      "industry": "金融与保险",
+      "title": "山西证券：固收助理与合规知识问答",
+      "titleEn": "Shanxi Securities: bond assistance and compliance Q&A",
+      "focus": "识别交易意图并保留人工处理与引用复核",
+      "focusEn": "Recognize intent while retaining human review and citations",
+      "problem": "固收业务需要理解交易对手的真实意图，员工也需要快速查阅合规知识；模型输出必须能够被业务人员核对。",
+      "approach": "公开分享介绍用本地对话模型辅助意图识别并向交易员反馈，同时结合 LangChain、ChatGLM 与本地知识库提供带来源指针的合规问答。",
+      "evidence": "来源记录固收和合规两类探索，按同一企业的一篇实践收录；交易动作仍由人员处理。模型版本以原文时间为准。",
+      "takeaway": "分别设计咨询、建议与执行的责任边界，让工作人员能定位回答引用的原始知识。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/finance-shanzheng-practice.md",
+        "sha256": "a7b728446061c072fa92ab5d4f1730a067f1596442d04448bcb6d32fe1f6e591"
+      }
+    },
+    {
+      "id": "FC-078",
+      "industry": "医疗健康",
+      "title": "Abridge：医疗对话转临床文档",
+      "titleEn": "Abridge: clinical documentation from conversations",
+      "focus": "把生成的文档摘要映射回对话证据",
+      "focusEn": "Link generated clinical notes back to conversation evidence",
+      "problem": "医生在接诊之外还需要整理大量文档，医疗术语识别与文档核对增加了记录负担。",
+      "approach": "公开案例解读介绍专门的语音识别与文档生成流程，将对话转为结构化临床记录，并通过 Linked Evidence 将摘要与源数据关联。",
+      "evidence": "来源介绍产品功能与医疗机构应用情况；本条聚焦文档工作流，不据此评估临床诊疗效果。",
+      "takeaway": "文档自动化应让专业人员方便地回到原始证据，检查术语、遗漏与摘要表达。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/health-abridge-documentation.md",
+        "sha256": "879583ad8dc6c236f4d4b55a633ff15d7d2d66602ae00eb4b8939bfb9fe6172f"
+      }
+    },
+    {
+      "id": "FC-079",
+      "industry": "医疗健康",
+      "title": "AiCure：临床试验中的用药行为记录",
+      "titleEn": "AiCure: medication adherence records in clinical trials",
+      "focus": "连接移动端视觉记录、患者报告与研究者工作台",
+      "focusEn": "Connect visual records, patient reports and research workflows",
+      "problem": "临床试验需要了解用药依从性与患者状态，研究团队难以仅凭定期线下接触及时取得相关记录。",
+      "approach": "公开资料介绍通过手机或平板摄像头识别用药行为，并结合电子观察、患者报告和研究者访问权限，服务远程随访与试验管理。",
+      "evidence": "来源列出平台用途及合作场景；文中的业务统计并非本仓库重新开展的试验。",
+      "takeaway": "围绕采集质量、访问权限、异常反馈和研究人员复核组织数据流程，区分行为记录与疗效判断。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/health-aicure-adherence.md",
+        "sha256": "26fb079f0a1241d9e72713b028e05ea18aaf04dd826f18e3ccbaef12b455544e"
+      }
+    },
+    {
+      "id": "FC-081",
+      "industry": "医疗健康",
+      "title": "Tempus AI：多模态医疗数据整理",
+      "titleEn": "Tempus AI: structuring multimodal medical data",
+      "focus": "将病历、影像与基因报告转为可计算的数据",
+      "focusEn": "Structure records, images and genomic reports",
+      "problem": "不同医疗资料的格式与语义分散，单份报告中的信息难以连接到后续研究与临床支持工作。",
+      "approach": "公开分析介绍持续清洗病例、影像和基因报告，提取结构化特征并形成统一数据平台，用于后续模型与研发任务。",
+      "evidence": "来源为 Tempus AI 数据平台的公开分析；数据规模与业务描述对应文章发布时间。",
+      "takeaway": "先梳理资料之间的对应关系、数据来源与质量规则，再判断哪些任务适合建立模型支持。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/health-tempus-data-engine.md",
+        "sha256": "7094f75776a90ed658f3875a57ded494d2aa01c3e596e44351dacd658a0f6709"
+      }
+    },
+    {
+      "id": "FC-089",
+      "industry": "医疗健康",
+      "title": "医疗器械客服：RAG Copilot 迁移排障",
+      "titleEn": "Medical-device support: troubleshooting a RAG migration",
+      "focus": "从检索片段过多的问题反查切分与索引设计",
+      "focusEn": "Trace excessive retrieval back to chunking and indexing",
+      "problem": "作者尝试把既有 Azure RAG 客服助手迁移到 Palantir AIP，相同文档集返回过多片段，导致回答无效或失败。",
+      "approach": "公开讨论从缩小文档范围开始排查，并探讨切分结构、向量索引、语义与关键词检索，以及在 AIP Logic 中组织检索结果的方法。",
+      "evidence": "来源是用户尝试与社区建议的整理，保留失败和改进建议的状态，不描述为已完成迁移的成功部署。",
+      "takeaway": "迁移时保留相同问题集和文档基线，先定位解析、召回和上下文组织差异，再比较最终答案。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/palantir-aip-rag-copilot.md",
+        "sha256": "0b87f6988a5605d4e201a6547217fe5e4ace21cd40d7cdbf1a428ab2b4a29990"
+      }
+    },
+    {
+      "id": "FC-109",
+      "industry": "医疗健康",
+      "title": "万木健康：基层医患服务工作流",
+      "titleEn": "Wanmu Health: workflows for community healthcare services",
+      "focus": "将专科知识、医生服务与区域化业务结合",
+      "focusEn": "Connect specialist knowledge with local service workflows",
+      "problem": "基层医患服务需要专业知识与持续沟通，单纯生成内容难以替代已有医生服务关系和实际运营流程。",
+      "approach": "公开演讲介绍围绕专科专家经验与知识库组织数字医生、患者管理和医生教育等场景，通过工作流连接医生、医疗机构和相关服务团队。",
+      "evidence": "来源为创始人的公开分享，包含已经开展的服务与未来规划；不将规划中的能力计作既有交付。",
+      "takeaway": "先确认服务对象、专业内容来源和线下协作方式，再定义 AI 在信息整理与沟通中的具体职责。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/wanmu-health-ai-practice.md",
+        "sha256": "8e5f5d108704caad5558703968b0706d319407077b0cfaac531454a3c46e0f43"
+      }
+    },
+    {
+      "id": "FC-102",
+      "industry": "物流与供应链",
+      "title": "环世物流：AI 与低代码业务系统结合",
+      "titleEn": "Huanshi Logistics: AI in low-code business workflows",
+      "focus": "把询价等任务接入已有数字化业务流程",
+      "focusEn": "Integrate quotation tasks into existing business workflows",
+      "problem": "国际物流询价需要客户、销售与航管协同，业务信息分散在多个环节，模型能力难以直接转成现场操作。",
+      "approach": "公开报道介绍在低代码构建的业务系统基础上推进 AI，将物流、办公与订单管理等场景中的数据和操作连接到既有流程，并探索向行业 SaaS 延伸。",
+      "evidence": "来源包含环世物流数字化负责人的实践介绍；不同业务方向的成熟度以原文具体描述为准。",
+      "takeaway": "从已有系统和岗位协作链寻找接入点，明确询价信息如何进入后续处理与反馈。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/huanshi-logistics-ai-cost.md",
+        "sha256": "3a12d4d0df0455d0fd1c24b4a536a3a0b8a9e0fb7eb4770e5e3751c1320b2186"
+      }
+    },
+    {
+      "id": "FC-048",
+      "industry": "互联网与媒体",
+      "title": "快手 KOncall：研发值班智能问答",
+      "titleEn": "Kuaishou KOncall: intelligent engineering support",
+      "focus": "统一值班入口，并把问答、转人工与知识运营衔接",
+      "focusEn": "Unify support entry, RAG, handoff and knowledge operations",
+      "problem": "研发值班入口分散、重复咨询频繁，传统关键词匹配无法充分理解问题，知识也难以沉淀。",
+      "approach": "团队公开介绍从 NLP 分词向 RAG 与大模型演进，连接机器人与人工值班服务，并用消息解耦处理流式回答、多端访问和重连问题。",
+      "evidence": "来源披露 KOncall 的系统演进及作者统计的拦截率变化；指标取决于其值班场景和统计方式。",
+      "takeaway": "同时解决知识质量、人工接管和消息可靠性，才能让问答助手成为日常支持流程的一部分。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/cs-2026042937926.md",
+        "sha256": "1f4894a48c7073f8e40e65e1df6ab81b241e7eb9e2b055949a6fce2c9846c420"
+      }
+    },
+    {
+      "id": "FC-001",
+      "industry": "专业服务",
+      "title": "标书编制：分步 Agent 与自动质检",
+      "titleEn": "Bid preparation: staged Agents and automated checks",
+      "focus": "先拆要求，再逐章生成、脚本检查与人工审核",
+      "focusEn": "Extract requirements, draft by chapter and review",
+      "problem": "一次生成长标书容易出现格式错误、占位符、客户名称残留和章节不一致，难以直接用于审阅。",
+      "approach": "作者以公开讲解的脱敏采购文件实践，拆分文件解析、格式要求提取、逐章写作和自动质检；脚本检查明确规则，人员检查内容与逻辑。",
+      "evidence": "来源为作者公开工程实践，包含步骤、质检项与经验反馈；本案例不包含其项目源码或完整招标文件。",
+      "takeaway": "将长文档交付拆成可以逐步检查的产物，把算术、名称和占位符等确定性检查固化为工具。",
+      "snapshot": {
+        "repository": "fde-china",
+        "path": "src/content/generated/cases-external/de-2026072210756.md",
+        "sha256": "d9eadc09308f977774a2e80abb4f98b7a981554d6e3ddcd57dd765a729ea4133"
+      }
+    }
+  ]
+}

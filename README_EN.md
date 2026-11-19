@@ -43,7 +43,7 @@ Metadata checked: 2026-11-19。
 
 ## Navigate the guide
 
-[What is an FDE?](#what-is-an-fde) · [Where to start](#where-to-start) · [Eight modules](#eight-core-modules) · [Learning paths](#learning-paths) · [Delivery workflow](#delivery-workflow) · [Run an example](#run-your-first-example) · [Case and project scope](#evidence-and-project-status) · [Repository layout](#repository-layout) · [Community](#community) · [Contributing](#contributing)
+[What is an FDE?](#what-is-an-fde) · [Where to start](#where-to-start) · [Eight modules](#eight-core-modules) · [Learning paths](#learning-paths) · [Delivery workflow](#delivery-workflow) · [Run an example](#run-your-first-example) · [Public cases](#public-cases) · [Repository layout](#repository-layout) · [Community](#community) · [Contributing](#contributing)
 
 ## What is an FDE?
 
@@ -64,7 +64,7 @@ Choose the task you need to complete. You do not need to read the repository in 
 | Lead an enterprise AI project, product or consulting engagement | [Business discovery](playbook/business-discovery/README.md) → [Opportunity card](templates/discovery/opportunity-card.md) | Defined users, problem, baseline and success criteria |
 | Prepare project documentation | [Toolkit](toolkit/README.md) | A completed template for the current stage |
 | Follow the companion book | [12-chapter study guide](book/README.md) | A chapter exercise and its deliverable |
-| Research industry use cases, technology choices or startup opportunities | [Case index](cases/catalog.md) → [Technology map](resources/frameworks.md) | Sourced options and hypotheses to validate |
+| Research industry use cases, technology choices or startup opportunities | [Public cases](cases/README.md) → [Technology map](resources/frameworks.md) | Sourced options and hypotheses to validate |
 
 ## Eight core modules
 
@@ -75,7 +75,7 @@ Choose the task you need to complete. You do not need to read the repository in 
 | [FDE Playbook](playbook/README.md) | How do I move a project through each stage? | Goals, inputs, outputs, methods and risks across 12 stages |
 | [FDE Toolkit](toolkit/README.md) | Which decisions and evidence should I document? | 30 core task templates, checklists and an ROI calculator |
 | [FDE Cookbook](cookbook/README.md) | How do I implement and validate an engineering capability? | 10 practice guides and 1 runnable offline exercise |
-| [FDE Cases](cases/README.md) | Which business scenarios and experiences can I study? | An index of 119 community articles and 1 synthetic teaching case |
+| [FDE Cases](cases/README.md) | Which business scenarios and experiences can I study? | Public cases selected by industry, with reading notes and delivery lessons |
 | [FDE Projects](projects/README.md) | How do I scope a complete application? | 10 project briefs with component availability and planning status |
 | [FDE Resources](resources/README.md) | Which technologies and official references should I study? | Resources for LLMs, Agents, RAG, AI infrastructure, evaluation and related topics |
 
@@ -132,15 +132,53 @@ Successful execution prints JSON containing `"passed": 7`. The assertions cover 
 
 Next, change a sample, inspect the assertion result and record failures in the [Bad Case template](toolkit/templates/bad-case.md). Continue with the [Cookbook](cookbook/README.md) to develop engineering capabilities. A separate [ROI calculator](toolkit/calculators/README.md) supports business value estimates.
 
-## Evidence and project status
+<a id="evidence-and-project-status"></a>
+<a id="public-cases"></a>
 
-Current scope is documented in the repository indexes:
+<!-- public-cases:start -->
 
-- **Case reading:** [119 community articles](cases/catalog.md), grouped by industry, with titles, summaries and source links. Article counts do not represent independently verified deployments. The full collection of 200 case documents remains incomplete and awaits source materials.
-- **Teaching practice:** [1 synthetic service-desk case](cases/enterprise-services/synthetic-service-desk.md) uses synthetic data and the offline code to illustrate delivery.
-- **Project practice:** [10 project briefs](projects/project-catalog.md) describe scenarios, architectures, book chapters and acceptance goals. The offline exercise above is runnable in this repository; application components, upstream references and planned work are identified for each project.
+## 30 public cases
 
-Classify case contributions as authorized enterprise cases, public cases/articles, reference implementations or synthetic teaching cases using the [case template](cases/case-template.md). For applications, provide the source, runtime requirements and test evidence requested by the [project template](projects/project-template.md).
+Selected from public articles across **7 industry categories**. Case titles link to the source articles; summaries are curated for this guide.
+
+[Case notes](cases/selected.md) · [Full reading index](cases/catalog.md)
+
+| Industry | Public case | What to study |
+| --- | --- | --- |
+| Manufacturing and automotive | [Trinity Industries: rail asset and invoice review](https://fdechina.ai/cases/insights/palantir-2026070807468) | Connect maintenance rules, assets and invoices |
+| Manufacturing and automotive | [Onshape and LLMs: a gimbal CAD workflow](https://fdechina.ai/cases/insights/industry-2026070228195) | Read, edit and inspect versioned CAD state |
+| Manufacturing and automotive | [Yuedian: ontology-driven equipment maintenance](https://fdechina.ai/cases/insights/industry-2026011337810) | Align equipment, failure modes and maintenance actions |
+| Manufacturing and automotive | [Automotive engineering: compliance-aware CAD checks](https://fdechina.ai/cases/insights/auto-compliant-model-design) | Map requirements to CAD checks and parameters |
+| E-commerce and retail | [Pricing operations: regression evaluation for Skills](https://fdechina.ai/cases/insights/ecom-ai-workbench) | Make operational Skill quality repeatably testable |
+| E-commerce and retail | [Taobao Instant Commerce: ranking model iteration](https://fdechina.ai/cases/insights/ecom-taobao-shangou-scaling) | Use a unified backbone and ablation studies |
+| E-commerce and retail | [Dewu: controlled customer-service Agents](https://fdechina.ai/cases/insights/cs-2026071515026) | Separate orchestration, replies and evaluation |
+| E-commerce and retail | [Taobao GrowBrain: content growth orchestration](https://fdechina.ai/cases/insights/ecom-taobao-growbrain) | Organize content decisions through plan, execute and summarize |
+| E-commerce and retail | [Taobao Enterprise: Skills for customer integrations](https://fdechina.ai/cases/insights/ecom-taobao-skills-rnd) | Turn integration expertise into versioned workflows |
+| E-commerce and retail | [Semir: unified model and MCP access](https://fdechina.ai/cases/insights/ecom-semir-ai-gateway) | Manage access, cost, fallback and existing services |
+| E-commerce and retail | [Shopify: multi-Agent product taxonomy governance](https://fdechina.ai/cases/insights/ecom-shopify-ai-team) | Identify taxonomy gaps and equivalent merchant labels |
+| E-commerce and retail | [RaceTrac: store demand and operational planning](https://fdechina.ai/cases/insights/palantir-foundry-racetrac) | Connect weather, sales and store-level models |
+| E-commerce and retail | [1688: integrated product search and selection](https://fdechina.ai/cases/insights/ecom-1688-ai-native) | Unify intent, product retrieval and comparison |
+| E-commerce and retail | [Taofactory: evolving content Agents](https://fdechina.ai/cases/insights/ecom-agent-content-scene) | Extend generation into content diagnosis and feedback |
+| E-commerce and retail | [Taobao: integrating AI try-on assets](https://fdechina.ai/cases/insights/ecom-2024101825830) | Deliver generated assets through resilient batch jobs |
+| Finance and insurance | [Kingsware: accuracy in bank due-diligence reports](https://fdechina.ai/cases/insights/finance-bank-due-diligence) | Capture implicit rules from reviewers and revisions |
+| Finance and insurance | [Community banks: assistants, adoption and data quality](https://fdechina.ai/cases/insights/finance-small-banks-experience) | Validate narrow use cases and staff adoption first |
+| Finance and insurance | [Insurance Geek: digital group-insurance claims](https://fdechina.ai/cases/insights/finance-insurance-claims) | Build claims workflows on normalized data and labels |
+| Finance and insurance | [GF research: financial analysis and reporting Skills](https://fdechina.ai/cases/insights/finance-gf-analysis-skills) | Separate deterministic calculations from sourced summaries |
+| Finance and insurance | [Rogo: financial Agents inside analyst workflows](https://fdechina.ai/cases/insights/finance-rogo-agent) | Bring licensed data and citations into analyst tools |
+| Finance and insurance | [Postal Savings Bank: operational support Q&A](https://fdechina.ai/cases/insights/cs-2026011003571) | Connect manuals, Q&A pairs and unresolved tickets |
+| Finance and insurance | [Shanxi Securities: bond assistance and compliance Q&A](https://fdechina.ai/cases/insights/finance-shanzheng-practice) | Recognize intent while retaining human review and citations |
+| Healthcare | [Abridge: clinical documentation from conversations](https://fdechina.ai/cases/insights/health-abridge-documentation) | Link generated clinical notes back to conversation evidence |
+| Healthcare | [AiCure: medication adherence records in clinical trials](https://fdechina.ai/cases/insights/health-aicure-adherence) | Connect visual records, patient reports and research workflows |
+| Healthcare | [Tempus AI: structuring multimodal medical data](https://fdechina.ai/cases/insights/health-tempus-data-engine) | Structure records, images and genomic reports |
+| Healthcare | [Medical-device support: troubleshooting a RAG migration](https://fdechina.ai/cases/insights/palantir-aip-rag-copilot) | Trace excessive retrieval back to chunking and indexing |
+| Healthcare | [Wanmu Health: workflows for community healthcare services](https://fdechina.ai/cases/insights/wanmu-health-ai-practice) | Connect specialist knowledge with local service workflows |
+| Logistics and supply chains | [Huanshi Logistics: AI in low-code business workflows](https://fdechina.ai/cases/insights/huanshi-logistics-ai-cost) | Integrate quotation tasks into existing business workflows |
+| Internet and media | [Kuaishou KOncall: intelligent engineering support](https://fdechina.ai/cases/insights/cs-2026042937926) | Unify support entry, RAG, handoff and knowledge operations |
+| Professional services | [Bid preparation: staged Agents and automated checks](https://fdechina.ai/cases/insights/de-2026072210756) | Extract requirements, draft by chapter and review |
+
+<!-- public-cases:end -->
+
+See the [curation guide](cases/curation.md) for inclusion and maintenance. Application implementation status is tracked separately in the [project catalog](projects/project-catalog.md).
 
 ## Repository layout
 
@@ -151,7 +189,7 @@ awesome-fde/
 ├── playbook/         # 12-stage enterprise AI delivery lifecycle
 ├── toolkit/          # Core task templates, checklists and calculators
 ├── cookbook/         # Engineering guides and the runnable offline exercise
-├── cases/            # Case indexes, sources and teaching cases
+├── cases/            # Selected public cases, industry index and delivery notes
 ├── projects/         # Project briefs and implementation status
 ├── resources/        # Frameworks, courses, papers, datasets and technology map
 ├── career/           # Six-domain competency model and career materials

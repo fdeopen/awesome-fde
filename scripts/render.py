@@ -4,6 +4,8 @@ import json
 import re
 from pathlib import Path
 
+from render_cases import render_selected_cases
+
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument("--check", action="store_true")
@@ -103,6 +105,8 @@ for category in categories:
     for c in selected:
         content += "| " + c["id"] + " / " + c["originalIndustry"] + " | [" + cell(c["title"]) + "](" + c["url"] + ") — " + cell(c["summary"]) + " | " + c["publishedAt"][:10] + " |\n"
 put("cases/catalog.md", content)
+
+render_selected_cases(read, put, block, cell)
 
 tools = read("resources/catalog.json")
 content = "# 企业AI技术资源图谱\n\n重点项目逐条记录仓库、文档、定位、适用场景、技术特征、许可和企业注意事项。元数据核验不等于部署或安全认证。\n\n"
